@@ -30,7 +30,10 @@ class(mammals)
 + Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 
 ```{r}
-
+x<-mammals
+dim(x)
+tail(x)
+str(x)
 ```
 
 
