@@ -34,12 +34,27 @@ x<-mammals
 dim(x)
 tail(x)
 str(x)
+
+y<-Animals2
+dim(y)
+tail(y)
+str(y)
 ```
 
 
 + Muestra los nombres de las filas y las columnas (rownames, colnames)
+```{r}
+print(rownames(x))
+print(colnames(x))
+print(rownames(y))
+print(colnames(y))
+```
 
 + Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos
+```{r}
+commonAnimals<-intersect(x,y)
+commonAnimals
+```
 
 + Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 
