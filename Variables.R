@@ -1,3 +1,4 @@
 #Declaro variables.
 
-x<-33
+x<-55
+y<-33
